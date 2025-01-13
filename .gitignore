@@ -1,0 +1,10 @@
+# Ignore all files
+*
+
+# Allow .cpp files
+!*.cpp
+
+# Allow directories to ensure Git can process files inside them
+!*/
+
+!.gitignore
