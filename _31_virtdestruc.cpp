@@ -54,8 +54,7 @@ int main()
     delete poly;
 
     std::cout << "---------------\n";
-    //Only base destructor, not both destructors called since not marked virtual
-    //Memory leak in case of this example
+    //With virtual no memory leak
     Base2* poly2 = new Derived2();
     delete poly2;
 
